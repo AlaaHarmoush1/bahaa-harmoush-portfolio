@@ -1,0 +1,14 @@
+.page {
+  flex: 1;
+  padding-bottom: var(--space-6);
+}
+
+.footer {
+  max-width: var(--header-max-width);
+  margin: var(--space-6) auto 0;
+  padding: var(--space-4);
+  text-align: center;
+  color: var(--ig-text-secondary);
+  font-size: 13px;
+  border-top: 1px solid var(--ig-border-soft);
+}

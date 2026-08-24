@@ -1,0 +1,19 @@
+.row {
+  display: flex;
+  gap: var(--space-4);
+  padding: var(--space-4);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.row::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 735px) {
+  .row {
+    max-width: var(--header-max-width);
+    margin: 0 auto;
+    padding: var(--space-5) var(--space-4);
+  }
+}

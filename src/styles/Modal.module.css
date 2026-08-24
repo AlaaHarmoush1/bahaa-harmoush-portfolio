@@ -1,0 +1,84 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background: var(--ig-overlay);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: var(--space-4);
+  animation: fadeIn var(--transition-base);
+}
+
+.dialog {
+  position: relative;
+  background: var(--ig-bg-elevated);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-modal);
+  max-width: 935px;
+  width: 100%;
+  max-height: 90vh;
+  overflow: auto;
+  animation: scaleIn var(--transition-base);
+}
+
+.dialog.storyVariant {
+  background: #000;
+  border-radius: var(--radius-md);
+  max-width: 420px;
+  max-height: 90vh;
+  aspect-ratio: 9 / 16;
+  overflow: hidden;
+}
+
+.closeButton {
+  position: absolute;
+  top: var(--space-3);
+  right: var(--space-3);
+  z-index: 5;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: var(--radius-full);
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  transition: background var(--transition-fast);
+}
+
+.closeButton:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.dialog:not(.storyVariant) .closeButton {
+  background: transparent;
+  color: var(--ig-text);
+  top: var(--space-2);
+  right: var(--space-2);
+}
+
+.dialog:not(.storyVariant) .closeButton:hover {
+  background: var(--ig-hover-tint);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

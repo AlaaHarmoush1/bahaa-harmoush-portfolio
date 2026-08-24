@@ -1,0 +1,31 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Raw, un-transcoded video originals — not imported by the app (only
+# src/assets/videos/web/*.mp4 is used); kept locally, not pushed.
+src/assets/videos/*.MOV
+src/assets/videos/*.mov
+src/assets/videos/*.MP4
+src/assets/videos/*.mp4

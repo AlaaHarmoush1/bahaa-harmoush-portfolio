@@ -1,0 +1,53 @@
+.content {
+  padding: var(--space-6) var(--space-5) var(--space-5);
+  max-width: 420px;
+}
+
+.heading {
+  margin: 0 0 var(--space-1);
+  font-size: 20px;
+}
+
+.subheading {
+  margin: 0 0 var(--space-5);
+  color: var(--ig-text-secondary);
+  font-size: 14px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3);
+  border: 1px solid var(--ig-border);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-2);
+  transition: background var(--transition-fast);
+}
+
+.option:hover {
+  background: var(--ig-hover-tint);
+}
+
+.iconWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+  background: var(--ig-bg-secondary);
+  flex-shrink: 0;
+}
+
+.optionLabel {
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.optionValue {
+  display: block;
+  font-size: 13px;
+  color: var(--ig-text-secondary);
+}

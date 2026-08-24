@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gmirna01" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a55eea"/>
+      <stop offset="100%" stop-color="#6c2bd9"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" fill="url(#gmirna01)"/>
+  <text x="50%" y="46%" font-family="-apple-system,Segoe UI,Roboto,sans-serif" font-size="14" font-weight="700" fill="#ffffff" fill-opacity="0.95" text-anchor="middle" dominant-baseline="middle">M</text>
+</svg>

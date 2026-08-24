@@ -1,0 +1,17 @@
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--ig-border);
+  background: var(--ig-bg);
+  color: var(--ig-text);
+  transition: background var(--transition-fast), transform var(--transition-fast);
+}
+
+.toggle:hover {
+  background: var(--ig-hover-tint);
+  transform: scale(1.05);
+}

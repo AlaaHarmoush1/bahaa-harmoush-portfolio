@@ -1,0 +1,45 @@
+.tabBar {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid var(--ig-border-soft);
+  max-width: var(--header-max-width);
+  margin: 0 auto;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: center;
+  flex: 1;
+  padding: var(--space-3) var(--space-2);
+  background: none;
+  border: none;
+  border-top: 1px solid transparent;
+  margin-top: -1px;
+  color: var(--ig-text-secondary);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  transition: color var(--transition-fast);
+}
+
+.tab:hover {
+  color: var(--ig-text);
+}
+
+.tab.active {
+  color: var(--ig-text);
+  border-top-color: var(--ig-text);
+}
+
+.label {
+  display: none;
+}
+
+@media (min-width: 480px) {
+  .label {
+    display: inline;
+  }
+}

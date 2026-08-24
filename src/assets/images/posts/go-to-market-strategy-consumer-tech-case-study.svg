@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="g0e95d6bd" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff9f43"/>
+      <stop offset="100%" stop-color="#d35400"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#g0e95d6bd)"/>
+  <text x="50%" y="46%" font-family="-apple-system,Segoe UI,Roboto,sans-serif" font-size="77" font-weight="700" fill="#ffffff" fill-opacity="0.95" text-anchor="middle" dominant-baseline="middle">STRATEGY</text>
+  <text x="50%" y="60%" font-family="-apple-system,Segoe UI,Roboto,sans-serif" font-size="41" font-weight="500" fill="#ffffff" fill-opacity="0.85" text-anchor="middle" dominant-baseline="middle">Go-To-Market Plan</text>
+</svg>

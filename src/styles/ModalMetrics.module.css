@@ -1,0 +1,22 @@
+.metrics {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) 0;
+  border-top: 1px solid var(--ig-border-soft);
+  border-bottom: 1px solid var(--ig-border-soft);
+  color: var(--ig-text);
+}
+
+.metric {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.bookmark {
+  margin-left: auto;
+  display: flex;
+}

@@ -1,0 +1,141 @@
+.header {
+  padding: var(--space-5) var(--space-4) var(--space-4);
+  border-bottom: 1px solid var(--ig-border-soft);
+}
+
+.topRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+  position: relative;
+}
+
+.avatarWrap {
+  padding: 3px;
+  border-radius: var(--radius-full);
+  background: var(--story-gradient);
+  flex-shrink: 0;
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: var(--radius-full);
+  object-fit: cover;
+  border: 3px solid var(--ig-bg);
+  display: block;
+}
+
+.info {
+  width: 100%;
+  text-align: center;
+}
+
+.handleRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  position: relative;
+}
+
+.handle {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.themeToggleDesktop {
+  display: none;
+}
+
+.themeToggleMobile {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bio {
+  margin: var(--space-2) 0;
+}
+
+.name {
+  font-weight: 600;
+  margin: 0 0 2px;
+}
+
+.tagline {
+  margin: 0 0 4px;
+  color: var(--ig-text);
+}
+
+.specialties {
+  margin: 0 0 4px;
+  color: var(--ig-blue);
+  font-size: 14px;
+}
+
+.location {
+  margin: 0 0 4px;
+  color: var(--ig-text-secondary);
+  font-size: 14px;
+}
+
+.website {
+  font-weight: 600;
+  color: var(--ig-text);
+  display: inline-block;
+}
+
+.actions {
+  margin-top: var(--space-3);
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 735px) {
+  .header {
+    max-width: var(--header-max-width);
+    margin: 0 auto;
+    padding: var(--space-6) var(--space-4);
+    border-bottom: 1px solid var(--ig-border-soft);
+  }
+
+  .topRow {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--space-7);
+  }
+
+  .avatarWrap {
+    padding: 4px;
+  }
+
+  .avatar {
+    width: 150px;
+    height: 150px;
+  }
+
+  .info {
+    text-align: left;
+    flex: 1;
+  }
+
+  .handleRow {
+    justify-content: flex-start;
+  }
+
+  .themeToggleDesktop {
+    display: flex;
+    margin-left: auto;
+  }
+
+  .themeToggleMobile {
+    display: none;
+  }
+
+  .actions {
+    justify-content: flex-start;
+  }
+}
