@@ -43,7 +43,7 @@ export const highlights = [
       {
         id: 1,
         type: "stat",
-        heading: "$2M+ Ad Spend Managed",
+        heading: "$25k+ Ad Spend Managed",
         body: "Across Meta, Google, and TikTok Ads with an average blended ROAS of 4x+.",
       },
       {
