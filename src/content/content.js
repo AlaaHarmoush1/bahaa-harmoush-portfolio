@@ -13,7 +13,7 @@ export const profile = {
   bio: {
     tagline: "Digital Marketing Expert — Social Media, Paid Ads, SEO, Branding & Strategy",
     specialties: ["Social Media", "Paid Ads", "SEO", "Branding", "Strategy"],
-    location: "📍 Remote / Worldwide",
+    location: "📍 Lebanon",
   },
   website: {
     label: "linktr.ee/BahaaHarmoush",
