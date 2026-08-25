@@ -2,7 +2,7 @@
 // To personalize this site: edit `profile` below, and edit posts.js / highlights.js /
 // testimonials.js for the grid, story highlights, and testimonial cards.
 
-import avatar from "../assets/images/bahaa-harmoush-digital-marketing-specialist.webp";
+import avatar from "../assets/images/bahaa-harmoush-digital-marketing-expert-lebanon.webp";
 
 export const profile = {
   name: "Bahaa Harmoush",

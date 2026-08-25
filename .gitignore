@@ -29,3 +29,6 @@ src/assets/videos/*.MOV
 src/assets/videos/*.mov
 src/assets/videos/*.MP4
 src/assets/videos/*.mp4
+
+.vercel
+.env*

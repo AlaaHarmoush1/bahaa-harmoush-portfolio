@@ -7,15 +7,15 @@
   border: none;
   color: var(--ig-text);
   flex-shrink: 0;
-  width: 84px;
+  width: 100px;
 }
 
 .ring {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 72px;
-  height: 72px;
+  width: 88px;
+  height: 88px;
   border-radius: var(--radius-full);
   padding: 3px;
   background: linear-gradient(var(--ig-border), var(--ig-border));
@@ -40,5 +40,5 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 84px;
+  max-width: 100px;
 }
